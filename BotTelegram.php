@@ -58,8 +58,8 @@ class BotTelegram
 
         $options = [
             'http' => [
-                'header'  => "Content-Type:application/json\r\n",
-                'method'  => 'POST',
+                'header' => "Content-Type:application/json\r\n",
+                'method' => 'POST',
                 'content' => json_encode($data),
             ],
         ];
